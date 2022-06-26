@@ -9,3 +9,15 @@ K:\Proyectos\QuarkAcademy\Windows\tienda-mayorista-app\obj\Debug\tienda-mayoris
 K:\Proyectos\QuarkAcademy\Windows\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.csproj.CoreCompileInputs.cache
 K:\Proyectos\QuarkAcademy\Windows\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.exe
 K:\Proyectos\QuarkAcademy\Windows\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.pdb
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\bin\Debug\tienda-mayorista-app.exe.config
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\bin\Debug\tienda-mayorista-app.exe
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\bin\Debug\tienda-mayorista-app.pdb
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.csproj.AssemblyReference.cache
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.csproj.SuggestedBindingRedirects.cache
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda_mayorista_app.Properties.Resources.resources
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.csproj.GenerateResource.cache
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.csproj.CoreCompileInputs.cache
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.exe
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda-mayorista-app.pdb
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda_mayorista_app.formPrincipal.resources
+K:\Proyectos\QuarkAcademy\Practica\tienda-mayorista-app\obj\Debug\tienda_mayorista_app.FormHistorialCotizaciones.resources

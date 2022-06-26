@@ -46,16 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="controllers\Controlador.cs" />
+    <Compile Include="controllers\ControladorDB.cs" />
+    <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHistorialCotizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistorialCotizaciones.Designer.cs">
+      <DependentUpon>FormHistorialCotizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\prendas\Camisa.cs" />
+    <Compile Include="models\Cotizacion.cs" />
+    <Compile Include="models\prendas\Camisa_CuelloMao.cs" />
+    <Compile Include="models\prendas\Pantalon.cs" />
+    <Compile Include="models\prendas\Pantalon_Chupin.cs" />
+    <Compile Include="models\prendas\Prenda.cs" />
+    <Compile Include="models\Tienda.cs" />
+    <Compile Include="models\Vendedor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistorialCotizaciones.resx">
+      <DependentUpon>FormHistorialCotizaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,5 +98,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
