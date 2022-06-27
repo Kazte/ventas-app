@@ -7,7 +7,7 @@
     }
     public class Camisa : Prenda
     {
-        public TipoManga TipoManga { get; private set; }
+        protected TipoManga TipoManga;
 
         public Camisa(int identificador, Calidad calidad, decimal precioUnitario, int cantidadStock, TipoManga tipoManga) : base(identificador, calidad, precioUnitario, cantidadStock)
         {
