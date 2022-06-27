@@ -60,24 +60,35 @@ namespace tienda_mayorista_app
         {
             var calidad = this.calidad;
 
-            int cantidad = int.Parse(nbCantidad.Value.ToString());
-
-            decimal precio = decimal.Parse(nbPrecio.Value.ToString("##.00"));
-
-            var precioTotal = controlador.GenerarCotizacion(prendaString, vendedorActual, calidad, cantidad, precio);
-
-            if (precioTotal == -1)
+            if (int.TryParse(nbCantidad.Value.ToString(), out int cantidad))
             {
-                MessageBox.Show(
-                    "No hay suficiente Stock para hacer la cotización",
-                    "Error Stock",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error
-                    );
+
+                decimal precio = decimal.Parse(nbPrecio.Value.ToString("##.00"));
+
+                var precioTotal = controlador.GenerarCotizacion(prendaString, vendedorActual, calidad, cantidad, precio);
+
+                if (precioTotal == -1)
+                {
+                    MessageBox.Show(
+                        "No hay suficiente Stock para hacer la cotización",
+                        "Error Stock",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error
+                        );
+                }
+                else
+                {
+                    lbPrecioFinal.Text = "$ " + precioTotal.ToString("##.00");
+                }
             }
             else
             {
-                lbPrecioFinal.Text = "$ " + precioTotal.ToString("##.00");
+                MessageBox.Show(
+                        "Ingresa una cantidad correcta",
+                        "Error Cantidad",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error
+                        );
             }
         }
 
