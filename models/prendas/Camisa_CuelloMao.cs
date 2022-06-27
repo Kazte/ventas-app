@@ -16,7 +16,7 @@
         {
             var precioBase = base.ObtenerPrecio();
 
-            return (decimal)(precioBase + precioBase * (decimal)0.03f);
+            return (precioBase + precioBase * 0.03m);
         }
 
         public override string ToString()

@@ -38,9 +38,6 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rbPremium = new System.Windows.Forms.RadioButton();
             this.rbStandard = new System.Windows.Forms.RadioButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lbStockDisponible = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbChupin = new System.Windows.Forms.CheckBox();
             this.cbMangaCorta = new System.Windows.Forms.CheckBox();
@@ -64,7 +61,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nbCantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbPrecio)).BeginInit();
             this.groupBox3.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -88,7 +84,6 @@
             this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Controls.Add(this.panel2);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(12, 189);
             this.groupBox1.Name = "groupBox1";
@@ -220,35 +215,6 @@
             this.rbStandard.Text = "Standard";
             this.rbStandard.UseVisualStyleBackColor = true;
             this.rbStandard.CheckedChanged += new System.EventHandler(this.rbStandard_CheckedChanged);
-            // 
-            // panel2
-            // 
-            this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel2.Controls.Add(this.lbStockDisponible);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(104, 108);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(395, 24);
-            this.panel2.TabIndex = 1;
-            // 
-            // lbStockDisponible
-            // 
-            this.lbStockDisponible.AutoSize = true;
-            this.lbStockDisponible.Location = new System.Drawing.Point(103, 4);
-            this.lbStockDisponible.Name = "lbStockDisponible";
-            this.lbStockDisponible.Size = new System.Drawing.Size(0, 13);
-            this.lbStockDisponible.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Stock Disponible: ";
             // 
             // groupBox2
             // 
@@ -494,8 +460,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nbPrecio)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -521,9 +485,6 @@
         private System.Windows.Forms.CheckBox cbCuelloMao;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox cbbNombreTienda;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbStockDisponible;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbDireccionTienda;
